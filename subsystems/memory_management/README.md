@@ -12,9 +12,9 @@ Linux kernel memory management: allocation, reclaim, cgroups, OOM.
 - [ ] Swap Management
 
 ## Quick Links
-- [OOM Killer](oom-killer/README.md)
+- [OOM Killer](oom_killer/README.md)
 - [Cgroups](cgroups/README.md)
-- [Page Allocator](concepts/page-allocator.md)
+- [Page Allocator](concepts/page_allocator.md)
 
 ## Key Files (6.18)
 ```
