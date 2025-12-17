@@ -1,0 +1,179 @@
+[   44.009120] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536858624 limit=536870912 request=131072 ret=-12
+[   44.013998] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536862720 limit=536870912 request=131072 ret=-12
+[   44.017551] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536866816 limit=536870912 request=131072 ret=-12
+[   44.021158] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536870912 limit=536870912 request=131072 ret=-12
+[   44.025552] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536870912 limit=536870912 request=4096 ret=-12
+[   44.029399] mm/memcontrol.c:1877:__mem_cgroup_do_charge(): Reclaiming memroy
+[   44.029457] MEMCG RECLAIM LOOP: victim=ffff88017003bce0 loop=0 total=0 excess=0
+[   44.033585] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536788992 limit=536870912 request=131072 ret=-12
+[   44.037574] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536793088 limit=536870912 request=131072 ret=-12
+[   44.041530] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536797184 limit=536870912 request=131072 ret=-12
+[   44.045811] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536801280 limit=536870912 request=131072 ret=-12
+[   44.049818] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536805376 limit=536870912 request=131072 ret=-12
+[   44.054377] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536809472 limit=536870912 request=131072 ret=-12
+[   44.058390] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536813568 limit=536870912 request=131072 ret=-12
+[   44.062708] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536817664 limit=536870912 request=131072 ret=-12
+[   44.066976] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536821760 limit=536870912 request=131072 ret=-12
+[   44.071199] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536825856 limit=536870912 request=131072 ret=-12
+[   44.075754] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536829952 limit=536870912 request=131072 ret=-12
+[   44.079989] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536834048 limit=536870912 request=131072 ret=-12
+[   44.084531] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536838144 limit=536870912 request=131072 ret=-12
+[   44.089181] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536842240 limit=536870912 request=131072 ret=-12
+[   44.094357] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536846336 limit=536870912 request=131072 ret=-12
+[   44.099482] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536850432 limit=536870912 request=131072 ret=-12
+[   44.104261] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536854528 limit=536870912 request=131072 ret=-12
+[   44.108954] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536858624 limit=536870912 request=131072 ret=-12
+[   44.114027] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536862720 limit=536870912 request=131072 ret=-12
+[   44.118763] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536866816 limit=536870912 request=131072 ret=-12
+[   44.123894] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536870912 limit=536870912 request=131072 ret=-12
+[   44.123904] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536870912 limit=536870912 request=4096 ret=-12
+[   44.123930] mm/memcontrol.c:1877:__mem_cgroup_do_charge(): Reclaiming memroy
+[   44.123990] MEMCG RECLAIM LOOP: victim=ffff88017003bce0 loop=0 total=0 excess=0
+[   44.126869] MEMCG RECLAIM LOOP: victim=ffff880174e8a000 loop=1 total=0 excess=0
+[   44.126968] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536870912 limit=536870912 request=4096 ret=-12
+[   44.126976] mm/memcontrol.c:1877:__mem_cgroup_do_charge(): Reclaiming memroy
+[   44.126981] MEMCG RECLAIM LOOP: victim=ffff88017003bce0 loop=0 total=0 excess=0
+[   44.127436] MEMCG RECLAIM LOOP: victim=ffff880174e8a000 loop=1 total=0 excess=0
+[   44.127453] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536870912 limit=536870912 request=4096 ret=-12
+[   44.127459] mm/memcontrol.c:1877:__mem_cgroup_do_charge(): Reclaiming memroy
+[   44.127464] MEMCG RECLAIM LOOP: victim=ffff88017003bce0 loop=0 total=0 excess=0
+[   44.129637] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536862720 limit=536870912 request=131072 ret=-12
+[   44.129694] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536866816 limit=536870912 request=131072 ret=-12
+[   44.129706] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536870912 limit=536870912 request=131072 ret=-12
+[   44.129712] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536870912 limit=536870912 request=4096 ret=-12
+[   44.129718] mm/memcontrol.c:1877:__mem_cgroup_do_charge(): Reclaiming memroy
+[   44.129723] MEMCG RECLAIM LOOP: victim=ffff88017003b9a0 loop=0 total=0 excess=0
+[   44.130183] MEMCG RECLAIM LOOP: victim=ffff880174e8a000 loop=1 total=0 excess=0
+[   44.130200] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536870912 limit=536870912 request=4096 ret=-12
+[   44.130206] mm/memcontrol.c:1877:__mem_cgroup_do_charge(): Reclaiming memroy
+[   44.130211] MEMCG RECLAIM LOOP: victim=ffff88017003b9a0 loop=0 total=0 excess=0
+[   44.130650] MEMCG RECLAIM LOOP: victim=ffff880174e8a000 loop=1 total=0 excess=0
+[   44.130664] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536870912 limit=536870912 request=4096 ret=-12
+[   44.130670] mm/memcontrol.c:1877:__mem_cgroup_do_charge(): Reclaiming memroy
+[   44.130675] MEMCG RECLAIM LOOP: victim=ffff88017003b9a0 loop=0 total=0 excess=0
+[   44.131107] MEMCG RECLAIM LOOP: victim=ffff880174e8a000 loop=1 total=0 excess=0
+[   44.131121] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536870912 limit=536870912 request=4096 ret=-12
+[   44.131127] mm/memcontrol.c:1877:__mem_cgroup_do_charge(): Reclaiming memroy
+[   44.131132] MEMCG RECLAIM LOOP: victim=ffff88017003b9a0 loop=0 total=0 excess=0
+[   44.141480] MEMCG RECLAIM LOOP: victim=ffff880174e8a000 loop=1 total=0 excess=0
+[   44.141589] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536870912 limit=536870912 request=4096 ret=-12
+[   44.141602] mm/memcontrol.c:1877:__mem_cgroup_do_charge(): Reclaiming memroy
+[   44.141610] MEMCG RECLAIM LOOP: victim=ffff88017003b9a0 loop=0 total=0 excess=0
+[   44.190763] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536866816 limit=536870912 request=131072 ret=-12
+[   44.190806] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536870912 limit=536870912 request=131072 ret=-12
+[   44.190814] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536870912 limit=536870912 request=4096 ret=-12
+[   44.190823] mm/memcontrol.c:1877:__mem_cgroup_do_charge(): Reclaiming memroy
+[   44.190829] MEMCG RECLAIM LOOP: victim=ffff88017003bce0 loop=0 total=0 excess=0
+[   44.191401] MEMCG RECLAIM LOOP: victim=ffff880174e8a000 loop=1 total=0 excess=0
+[   44.191423] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536870912 limit=536870912 request=4096 ret=-12
+[   44.191430] mm/memcontrol.c:1877:__mem_cgroup_do_charge(): Reclaiming memroy
+[   44.191435] MEMCG RECLAIM LOOP: victim=ffff88017003bce0 loop=0 total=0 excess=0
+[   44.191878] MEMCG RECLAIM LOOP: victim=ffff880174e8a000 loop=1 total=0 excess=0
+[   44.191894] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536870912 limit=536870912 request=4096 ret=-12
+[   44.191900] mm/memcontrol.c:1877:__mem_cgroup_do_charge(): Reclaiming memroy
+[   44.191905] MEMCG RECLAIM LOOP: victim=ffff88017003bce0 loop=0 total=0 excess=0
+[   44.192339] MEMCG RECLAIM LOOP: victim=ffff880174e8a000 loop=1 total=0 excess=0
+[   44.192355] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536870912 limit=536870912 request=4096 ret=-12
+[   44.192360] mm/memcontrol.c:1877:__mem_cgroup_do_charge(): Reclaiming memroy
+[   44.192365] MEMCG RECLAIM LOOP: victim=ffff88017003bce0 loop=0 total=0 excess=0
+[   44.192798] MEMCG RECLAIM LOOP: victim=ffff880174e8a000 loop=1 total=0 excess=0
+[   44.192812] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536870912 limit=536870912 request=4096 ret=-12
+[   44.192818] mm/memcontrol.c:1877:__mem_cgroup_do_charge(): Reclaiming memroy
+[   44.192823] MEMCG RECLAIM LOOP: victim=ffff88017003bce0 loop=0 total=0 excess=0
+[   44.193259] MEMCG RECLAIM LOOP: victim=ffff880174e8a000 loop=1 total=0 excess=0
+[   44.193286] MEMCG CHARGE FAIL: cgroup=ffff880174e8a020 usage=536870912 limit=536870912 request=4096 ret=-12
+[   44.193292] mm/memcontrol.c:1877:__mem_cgroup_do_charge(): Reclaiming memroy
+[   44.193297] MEMCG RECLAIM LOOP: victim=ffff88017003bce0 loop=0 total=0 excess=0
+[   44.193729] MEMCG RECLAIM LOOP: victim=ffff880174e8a000 loop=1 total=0 excess=0
+[   44.193751] Calling mem_cgroup_handle_oom: enter
+[   44.193968] mm/memcontrol.c:1576:mem_cgroup_handle_oom(): calling mem_cgroup_out_of_memory()
+[   44.193989] mm/oom_kill.c:534:mem_cgroup_out_of_memory(): enter
+[   44.194051] mm/oom_kill.c:539:mem_cgroup_out_of_memory(): Calling select_bad_process
+[   44.194071] mm/oom_kill.c:280:select_bad_process(): enter
+[   44.194627] stress invoked oom-killer: gfp_mask=0xd0, order=0, oom_adj=0, oom_score_adj=0
+[   44.194758] stress cpuset=/ mems_allowed=0
+[   44.194915] Pid: 1118, comm: stress Not tainted 2.6.38.8 #17
+[   44.194938] Call Trace:
+[   44.195433]  [<ffffffff810b68ed>] ? cpuset_print_task_mems_allowed+0x9d/0xb0
+[   44.195507]  [<ffffffff81108501>] ? dump_header+0x91/0x1e0
+[   44.195517]  [<ffffffff81270dfc>] ? security_real_capable_noaudit+0x3c/0x70
+[   44.195525]  [<ffffffff81108a55>] ? oom_kill_process+0x85/0x2a0
+[   44.195532]  [<ffffffff81108d40>] ? mem_cgroup_out_of_memory+0xd0/0xf0
+[   44.195541]  [<ffffffff811583d8>] ? mem_cgroup_handle_oom+0x288/0x2c0
+[   44.195548]  [<ffffffff81154810>] ? memcg_oom_wake_function+0x0/0xa0
+[   44.195554]  [<ffffffff81158a31>] ? __mem_cgroup_try_charge.clone.38+0x621/0x690
+[   44.195562]  [<ffffffff81158af2>] ? mem_cgroup_charge_common+0x52/0x90
+[   44.195569]  [<ffffffff8114537a>] ? alloc_pages_vma+0x9a/0x150
+[   44.195575]  [<ffffffff811597e6>] ? mem_cgroup_newpage_charge+0x46/0x50
+[   44.195582]  [<ffffffff811293ea>] ? handle_pte_fault+0x4ca/0xb10
+[   44.195589]  [<ffffffff81142fd5>] ? alloc_pages_current+0xa5/0x110
+[   44.195597]  [<ffffffff81043287>] ? pte_alloc_one+0x37/0x50
+[   44.195604]  [<ffffffff81126d05>] ? __pte_alloc+0xb5/0x100
+[   44.195610]  [<ffffffff8112afc8>] ? handle_mm_fault+0x158/0x260
+[   44.195616]  [<ffffffff8104edfe>] ? perf_event_task_sched_out+0x2e/0xa0
+[   44.195625]  [<ffffffff815b2312>] ? do_page_fault+0x1a2/0x540
+[   44.195634]  [<ffffffff81013765>] ? native_sched_clock+0x15/0x80
+[   44.195641]  [<ffffffff8108bfe5>] ? sched_clock_local+0x25/0x90
+[   44.195647]  [<ffffffff810517a1>] ? pick_next_task_fair+0x121/0x1a0
+[   44.195654]  [<ffffffff815ac165>] ? schedule+0x785/0xa00
+[   44.195673]  [<ffffffff815aee55>] ? page_fault+0x25/0x30
+[   44.195790] Task in /test512mb killed as a result of limit of /test512mb
+[   44.195839] memory: usage 524288kB, limit 524288kB, failcnt 45
+[   44.195868] memory+swap: usage 524288kB, limit 524288kB, failcnt 0
+[   44.195888] Mem-Info:
+[   44.195915] Node 0 DMA per-cpu:
+[   44.195943] CPU    0: hi:    0, btch:   1 usd:   0
+[   44.195950] CPU    1: hi:    0, btch:   1 usd:   0
+[   44.195954] CPU    2: hi:    0, btch:   1 usd:   0
+[   44.195958] CPU    3: hi:    0, btch:   1 usd:   0
+[   44.195962] CPU    4: hi:    0, btch:   1 usd:   0
+[   44.195966] CPU    5: hi:    0, btch:   1 usd:   0
+[   44.195970] CPU    6: hi:    0, btch:   1 usd:   0
+[   44.195974] CPU    7: hi:    0, btch:   1 usd:   0
+[   44.195988] Node 0 DMA32 per-cpu:
+[   44.195992] CPU    0: hi:  186, btch:  31 usd: 209
+[   44.195996] CPU    1: hi:  186, btch:  31 usd: 193
+[   44.196000] CPU    2: hi:  186, btch:  31 usd:  28
+[   44.196004] CPU    3: hi:  186, btch:  31 usd:   0
+[   44.196008] CPU    4: hi:  186, btch:  31 usd:   0
+[   44.196011] CPU    5: hi:  186, btch:  31 usd:   0
+[   44.196015] CPU    6: hi:  186, btch:  31 usd:   0
+[   44.196019] CPU    7: hi:  186, btch:  31 usd:   0
+[   44.196022] Node 0 Normal per-cpu:
+[   44.196026] CPU    0: hi:  186, btch:  31 usd: 140
+[   44.196030] CPU    1: hi:  186, btch:  31 usd:  33
+[   44.196033] CPU    2: hi:  186, btch:  31 usd:  54
+[   44.196037] CPU    3: hi:  186, btch:  31 usd: 159
+[   44.196041] CPU    4: hi:  186, btch:  31 usd: 142
+[   44.196045] CPU    5: hi:  186, btch:  31 usd: 170
+[   44.196048] CPU    6: hi:  186, btch:  31 usd: 177
+[   44.196052] CPU    7: hi:  186, btch:  31 usd: 166
+[   44.196111] active_anon:129828 inactive_anon:6216 isolated_anon:0
+[   44.196114]  active_file:5241 inactive_file:23820 isolated_file:0
+[   44.196117]  unevictable:0 dirty:23 writeback:0 unstable:0
+[   44.196119]  free:816905 slab_reclaimable:3065 slab_unreclaimable:3409
+[   44.196122]  mapped:1755 shmem:75 pagetables:726 bounce:0
+[   44.196150] Node 0 DMA free:15860kB min:28kB low:32kB high:40kB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:15684kB mlocked:0kB dirty:0kB writeback:0kB mapped:0kB shmem:0kB slab_reclaimable:0kB slab_unreclaimable:16kB kernel_stack:0kB pagetables:0kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:0 all_unreclaimable? no
+[   44.196269] lowmem_reserve[]: 0 1973 3993 3993
+[   44.196305] Node 0 DMA32 free:1997976kB min:3988kB low:4984kB high:5980kB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:2020524kB mlocked:0kB dirty:0kB writeback:0kB mapped:0kB shmem:0kB slab_reclaimable:0kB slab_unreclaimable:0kB kernel_stack:0kB pagetables:0kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:0 all_unreclaimable? no
+[   44.196324] lowmem_reserve[]: 0 0 2020 2020
+[   44.196329] Node 0 Normal free:1253784kB min:4080kB low:5100kB high:6120kB active_anon:519312kB inactive_anon:24864kB active_file:20964kB inactive_file:95280kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:2068480kB mlocked:0kB dirty:92kB writeback:0kB mapped:7020kB shmem:300kB slab_reclaimable:12260kB slab_unreclaimable:13620kB kernel_stack:1000kB pagetables:2904kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:0 all_unreclaimable? no
+[   44.196348] lowmem_reserve[]: 0 0 0 0
+[   44.196376] Node 0 DMA: 1*4kB 0*8kB 1*16kB 1*32kB 1*64kB 1*128kB 1*256kB 0*512kB 1*1024kB 1*2048kB 3*4096kB = 15860kB
+[   44.196453] Node 0 DMA32: 14*4kB 10*8kB 17*16kB 6*32kB 9*64kB 16*128kB 6*256kB 3*512kB 5*1024kB 6*2048kB 482*4096kB = 1997976kB
+[   44.196469] Node 0 Normal: 0*4kB 68*8kB 66*16kB 21*32kB 17*64kB 7*128kB 0*256kB 4*512kB 4*1024kB 3*2048kB 302*4096kB = 1253536kB
+[   44.196491] 29137 total pagecache pages
+[   44.196502] 0 pages in swap cache
+[   44.196513] Swap cache stats: add 0, delete 0, find 0/0
+[   44.196522] Free swap  = 4194300kB
+[   44.196530] Total swap = 4194300kB
+[   44.257948] 1048560 pages RAM
+[   44.257970] 34674 pages reserved
+[   44.257978] 14410 pages shared
+[   44.257986] 185500 pages non-shared
+[   44.258007] [ pid ]   uid  tgid total_vm      rss cpu oom_adj oom_score_adj name
+[   44.258275] [ 1116]     0  1116     1059      146   0       0             0 sh
+[   44.258307] [ 1117]     0  1117     1649       82   0       0             0 stress
+[   44.258315] [ 1118]     0  1118   263794   131088   1       0             0 stress
+[   44.258346] Memory cgroup out of memory: Kill process 1118 (stress) score 972 or sacrifice child
+[   44.260847] Killed process 1118 (stress) total-vm:1055176kB, anon-rss:524176kB, file-rss:176kB

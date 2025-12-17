@@ -1,0 +1,363 @@
+[ 1182.902031] stress invoked oom-killer: gfp_mask=0x280da, order=0, oom_adj=0, oom_score_adj=0
+[ 1182.902174] stress cpuset=/ mems_allowed=0
+[ 1182.902262] Pid: 1460, comm: stress Not tainted 2.6.38.8 #1
+[ 1182.902288] Call Trace:
+[ 1182.902568]  [<ffffffff810b689d>] ? cpuset_print_task_mems_allowed+0x9d/0xb0
+[ 1182.902651]  [<ffffffff81108491>] ? dump_header+0x91/0x1e0
+[ 1182.902664]  [<ffffffff81270bbc>] ? security_real_capable_noaudit+0x3c/0x70
+[ 1182.902674]  [<ffffffff811089a5>] ? oom_kill_process+0x85/0x2a0
+[ 1182.902683]  [<ffffffff81109040>] ? out_of_memory+0x240/0x3e0
+[ 1182.902692]  [<ffffffff8110dc99>] ? __alloc_pages_nodemask+0x7b9/0x830
+[ 1182.902703]  [<ffffffff812d4b2e>] ? radix_tree_lookup_slot+0xe/0x10
+[ 1182.902713]  [<ffffffff8114522a>] ? alloc_pages_vma+0x9a/0x150
+[ 1182.902722]  [<ffffffff81129279>] ? handle_pte_fault+0x4a9/0xb10
+[ 1182.902731]  [<ffffffff81142e85>] ? alloc_pages_current+0xa5/0x110
+[ 1182.902741]  [<ffffffff81043237>] ? pte_alloc_one+0x37/0x50
+[ 1182.902748]  [<ffffffff81126bb5>] ? __pte_alloc+0xb5/0x100
+[ 1182.902756]  [<ffffffff8112ae78>] ? handle_mm_fault+0x158/0x260
+[ 1182.902764]  [<ffffffff8104edae>] ? perf_event_task_sched_out+0x2e/0xa0
+[ 1182.902775]  [<ffffffff815b20d2>] ? do_page_fault+0x1a2/0x540
+[ 1182.902785]  [<ffffffff81013765>] ? native_sched_clock+0x15/0x80
+[ 1182.902794]  [<ffffffff8100a777>] ? __switch_to+0x157/0x2f0
+[ 1182.902801]  [<ffffffff810533a1>] ? finish_task_switch+0x41/0xe0
+[ 1182.902811]  [<ffffffff815abba3>] ? schedule+0x403/0xa00
+[ 1182.902819]  [<ffffffff815aec15>] ? page_fault+0x25/0x30
+[ 1182.902890] Mem-Info:
+[ 1182.902924] Node 0 DMA per-cpu:
+[ 1182.902952] CPU    0: hi:    0, btch:   1 usd:   0
+[ 1182.902960] CPU    1: hi:    0, btch:   1 usd:   0
+[ 1182.902966] CPU    2: hi:    0, btch:   1 usd:   0
+[ 1182.902971] CPU    3: hi:    0, btch:   1 usd:   0
+[ 1182.902976] CPU    4: hi:    0, btch:   1 usd:   0
+[ 1182.902981] CPU    5: hi:    0, btch:   1 usd:   0
+[ 1182.902986] CPU    6: hi:    0, btch:   1 usd:   0
+[ 1182.902991] CPU    7: hi:    0, btch:   1 usd:   0
+[ 1182.903006] Node 0 DMA32 per-cpu:
+[ 1182.903012] CPU    0: hi:  186, btch:  31 usd:   0
+[ 1182.903017] CPU    1: hi:  186, btch:  31 usd:   0
+[ 1182.903022] CPU    2: hi:  186, btch:  31 usd:   0
+[ 1182.903027] CPU    3: hi:  186, btch:  31 usd:   0
+[ 1182.903032] CPU    4: hi:  186, btch:  31 usd:   0
+[ 1182.903037] CPU    5: hi:  186, btch:  31 usd:   0
+[ 1182.903042] CPU    6: hi:  186, btch:  31 usd:   0
+[ 1182.903047] CPU    7: hi:  186, btch:  31 usd:   0
+[ 1182.903051] Node 0 Normal per-cpu:
+[ 1182.903057] CPU    0: hi:  186, btch:  31 usd:   0
+[ 1182.903062] CPU    1: hi:  186, btch:  31 usd:   0
+[ 1182.903067] CPU    2: hi:  186, btch:  31 usd:   0
+[ 1182.903072] CPU    3: hi:  186, btch:  31 usd:   0
+[ 1182.903077] CPU    4: hi:  186, btch:  31 usd:   0
+[ 1182.903082] CPU    5: hi:  186, btch:  31 usd:   0
+[ 1182.903086] CPU    6: hi:  186, btch:  31 usd:   0
+[ 1182.903091] CPU    7: hi:  186, btch:  31 usd:   0
+[ 1182.903153] active_anon:534082 inactive_anon:178182 isolated_anon:0
+[ 1182.903156]  active_file:65 inactive_file:10 isolated_file:0
+[ 1182.903158]  unevictable:259750 dirty:0 writeback:0 unstable:0
+[ 1182.903161]  free:7954 slab_reclaimable:2427 slab_unreclaimable:3477
+[ 1182.903164]  mapped:1210 shmem:0 pagetables:4528 bounce:0
+[ 1182.903186] Node 0 DMA free:15860kB min:28kB low:32kB high:40kB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:15684kB mlocked:0kB dirty:0kB writeback:0kB mapped:0kB shmem:0kB slab_reclaimable:0kB slab_unreclaimable:16kB kernel_stack:0kB pagetables:0kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:0 all_unreclaimable? yes
+[ 1182.903319] lowmem_reserve[]: 0 1973 3993 3993
+[ 1182.903360] Node 0 DMA32 free:11956kB min:3988kB low:4984kB high:5980kB active_anon:1163132kB inactive_anon:387740kB active_file:4kB inactive_file:16kB unevictable:426284kB isolated(anon):0kB isolated(file):0kB present:2020524kB mlocked:426284kB dirty:0kB writeback:0kB mapped:4kB shmem:0kB slab_reclaimable:0kB slab_unreclaimable:44kB kernel_stack:0kB pagetables:10288kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:32 all_unreclaimable? yes
+[ 1182.903384] lowmem_reserve[]: 0 0 2020 2020
+[ 1182.903393] Node 0 Normal free:4000kB min:4080kB low:5100kB high:6120kB active_anon:973196kB inactive_anon:324988kB active_file:256kB inactive_file:24kB unevictable:612716kB isolated(anon):0kB isolated(file):0kB present:2068480kB mlocked:611724kB dirty:0kB writeback:0kB mapped:4836kB shmem:0kB slab_reclaimable:9708kB slab_unreclaimable:13848kB kernel_stack:1056kB pagetables:7824kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:426 all_unreclaimable? yes
+[ 1182.903417] lowmem_reserve[]: 0 0 0 0
+[ 1182.903442] Node 0 DMA: 1*4kB 0*8kB 1*16kB 1*32kB 1*64kB 1*128kB 1*256kB 0*512kB 1*1024kB 1*2048kB 3*4096kB = 15860kB
+[ 1182.903536] Node 0 DMA32: 2*4kB 1*8kB 2*16kB 40*32kB 44*64kB 14*128kB 0*256kB 0*512kB 0*1024kB 1*2048kB 1*4096kB = 12080kB
+[ 1182.903560] Node 0 Normal: 113*4kB 150*8kB 61*16kB 21*32kB 6*64kB 2*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 3940kB
+[ 1182.903589] 54119 total pagecache pages
+[ 1182.903601] 52620 pages in swap cache
+[ 1182.903614] Swap cache stats: add 1048880, delete 996260, find 38/71
+[ 1182.903625] Free swap  = 0kB
+[ 1182.903634] Total swap = 4194300kB
+[ 1182.920468] 1048560 pages RAM
+[ 1182.920477] 34673 pages reserved
+[ 1182.920484] 5882 pages shared
+[ 1182.920492] 1004266 pages non-shared
+[ 1182.920511] [ pid ]   uid  tgid total_vm      rss cpu oom_adj oom_score_adj name
+[ 1182.920606] [  221]     0   221     1035       77   0     -17         -1000 watershed
+[ 1182.920632] [  222]     0   222     1107       78   1     -17         -1000 sh
+[ 1182.920641] [  225]     0   225     8715     3468   1     -17         -1000 lvm
+[ 1182.920652] [  303]     0   303     4267       34   0       0             0 upstart-udev-br
+[ 1182.920662] [  312]     0   312     5390       66   4     -17         -1000 udevd
+[ 1182.920673] [  430]     0   430     5389       62   7     -17         -1000 udevd
+[ 1182.920683] [  462]     0   462     5389       58   3     -17         -1000 udevd
+[ 1182.920694] [  576]     0   576     1774        8   0       0             0 dhclient3
+[ 1182.920703] [  634]     0   634     3755        0   0       0             0 upstart-socket-
+[ 1182.920715] [  673]     0   673    12370      171   2     -17         -1000 sshd
+[ 1182.920724] [  678]   101   678    13617      139   2       0             0 rsyslogd
+[ 1182.920733] [  738]     0   738     1553      132   1       0             0 getty
+[ 1182.920742] [  743]     0   743     1553      132   1       0             0 getty
+[ 1182.920752] [  748]     0   748     1553      132   1       0             0 getty
+[ 1182.920761] [  750]     0   750     1553      132   0       0             0 getty
+[ 1182.920771] [  755]     0   755     1553      132   1       0             0 getty
+[ 1182.920780] [  763]     0   763     4736      129   4       0             0 cron
+[ 1182.920790] [  765]     0   765     4186       50   0       0             0 atd
+[ 1182.920799] [  783]     0   783    52049      171   6       0             0 libvirtd
+[ 1182.920808] [  785]     0   785     3949      115   1       0             0 irqbalance
+[ 1182.920817] [  834]     0   834     1553      132   1       0             0 getty
+[ 1182.920827] [  891] 65534   891     5426      118   3       0             0 dnsmasq
+[ 1182.920837] [  917]     0   917    17712      202   1       0             0 sshd
+[ 1182.920845] [  942]  1000   942    17712       94   1       0             0 sshd
+[ 1182.920853] [  943]  1000   943     6541      155   1       0             0 bash
+[ 1182.920863] [ 1043]     0  1043     8311      193   1       0             0 sudo
+[ 1182.920872] [ 1044]     0  1044     5581      173   1       0             0 bash
+[ 1182.920880] [ 1264]     0  1264    17712      200   1       0             0 sshd
+[ 1182.920890] [ 1289]  1000  1289    17712       75   1       0             0 sshd
+[ 1182.920899] [ 1290]  1000  1290     6541      156   1       0             0 bash
+[ 1182.920909] [ 1390]     0  1390     8311      193   1       0             0 sudo
+[ 1182.920918] [ 1395]     0  1395     5571      160   2       0             0 bash
+[ 1182.920927] [ 1452]     0  1452   256554   256004   6      15          1000 memfill
+[ 1182.920937] [ 1453]     0  1453     1649      107   1       0             0 stress
+[ 1182.920945] [ 1454]     0  1454   788082    64195   2       0             0 stress
+[ 1182.920953] [ 1455]     0  1455   788082    61788   3       0             0 stress
+[ 1182.920963] [ 1456]     0  1456   788082    66165   7       0             0 stress
+[ 1182.920971] [ 1457]     0  1457   788082    75394   2       0             0 stress
+[ 1182.920979] [ 1458]     0  1458   788082    67380   7       0             0 stress
+[ 1182.920988] [ 1459]     0  1459   788082    70520   3       0             0 stress
+[ 1182.920997] [ 1460]     0  1460   788082    62693   5       0             0 stress
+[ 1182.921005] [ 1461]     0  1461   788082    60982   4       0             0 stress
+[ 1182.921013] [ 1462]     0  1462   788082    62142   5       0             0 stress
+[ 1182.921022] [ 1463]     0  1463   788082    68452   4       0             0 stress
+[ 1182.921053] Out of memory: Kill process 1452 (memfill) score 1000 or sacrifice child
+[ 1182.922510] Killed process 1452 (memfill) total-vm:1026216kB, anon-rss:1022288kB, file-rss:1728kB
+[ 1182.941925] stress invoked oom-killer: gfp_mask=0x280da, order=0, oom_adj=0, oom_score_adj=0
+[ 1182.941943] stress cpuset=/ mems_allowed=0
+[ 1182.941955] Pid: 1460, comm: stress Not tainted 2.6.38.8 #1
+[ 1182.941961] Call Trace:
+[ 1182.941979]  [<ffffffff810b689d>] ? cpuset_print_task_mems_allowed+0x9d/0xb0
+[ 1182.941992]  [<ffffffff81108491>] ? dump_header+0x91/0x1e0
+[ 1182.942001]  [<ffffffff81270bbc>] ? security_real_capable_noaudit+0x3c/0x70
+[ 1182.942010]  [<ffffffff811089a5>] ? oom_kill_process+0x85/0x2a0
+[ 1182.942019]  [<ffffffff81109040>] ? out_of_memory+0x240/0x3e0
+[ 1182.942028]  [<ffffffff8110dc99>] ? __alloc_pages_nodemask+0x7b9/0x830
+[ 1182.942037]  [<ffffffff812d4b2e>] ? radix_tree_lookup_slot+0xe/0x10
+[ 1182.942047]  [<ffffffff8114522a>] ? alloc_pages_vma+0x9a/0x150
+[ 1182.942055]  [<ffffffff81129279>] ? handle_pte_fault+0x4a9/0xb10
+[ 1182.942064]  [<ffffffff81142e85>] ? alloc_pages_current+0xa5/0x110
+[ 1182.942073]  [<ffffffff81043237>] ? pte_alloc_one+0x37/0x50
+[ 1182.942080]  [<ffffffff81126bb5>] ? __pte_alloc+0xb5/0x100
+[ 1182.942088]  [<ffffffff8112ae78>] ? handle_mm_fault+0x158/0x260
+[ 1182.942096]  [<ffffffff8104edae>] ? perf_event_task_sched_out+0x2e/0xa0
+[ 1182.942105]  [<ffffffff815b20d2>] ? do_page_fault+0x1a2/0x540
+[ 1182.942114]  [<ffffffff81013765>] ? native_sched_clock+0x15/0x80
+[ 1182.942122]  [<ffffffff8100a777>] ? __switch_to+0x157/0x2f0
+[ 1182.942129]  [<ffffffff810533a1>] ? finish_task_switch+0x41/0xe0
+[ 1182.942138]  [<ffffffff815abba3>] ? schedule+0x403/0xa00
+[ 1182.942146]  [<ffffffff815aec15>] ? page_fault+0x25/0x30
+[ 1182.942154] Mem-Info:
+[ 1182.942159] Node 0 DMA per-cpu:
+[ 1182.942166] CPU    0: hi:    0, btch:   1 usd:   0
+[ 1182.942171] CPU    1: hi:    0, btch:   1 usd:   0
+[ 1182.942176] CPU    2: hi:    0, btch:   1 usd:   0
+[ 1182.942181] CPU    3: hi:    0, btch:   1 usd:   0
+[ 1182.942186] CPU    4: hi:    0, btch:   1 usd:   0
+[ 1182.942191] CPU    5: hi:    0, btch:   1 usd:   0
+[ 1182.942196] CPU    6: hi:    0, btch:   1 usd:   0
+[ 1182.942201] CPU    7: hi:    0, btch:   1 usd:   0
+[ 1182.942206] Node 0 DMA32 per-cpu:
+[ 1182.942212] CPU    0: hi:  186, btch:  31 usd:   0
+[ 1182.942217] CPU    1: hi:  186, btch:  31 usd:   0
+[ 1182.942222] CPU    2: hi:  186, btch:  31 usd:   0
+[ 1182.942227] CPU    3: hi:  186, btch:  31 usd:   0
+[ 1182.942232] CPU    4: hi:  186, btch:  31 usd:   0
+[ 1182.942237] CPU    5: hi:  186, btch:  31 usd:   0
+[ 1182.942242] CPU    6: hi:  186, btch:  31 usd:   0
+[ 1182.942247] CPU    7: hi:  186, btch:  31 usd:   0
+[ 1182.942250] Node 0 Normal per-cpu:
+[ 1182.942256] CPU    0: hi:  186, btch:  31 usd:   0
+[ 1182.942261] CPU    1: hi:  186, btch:  31 usd:   0
+[ 1182.942266] CPU    2: hi:  186, btch:  31 usd:   0
+[ 1182.942271] CPU    3: hi:  186, btch:  31 usd:   0
+[ 1182.942276] CPU    4: hi:  186, btch:  31 usd:   0
+[ 1182.942281] CPU    5: hi:  186, btch:  31 usd:   0
+[ 1182.942286] CPU    6: hi:  186, btch:  31 usd:  30
+[ 1182.942291] CPU    7: hi:  186, btch:  31 usd:   0
+[ 1182.942302] active_anon:534097 inactive_anon:186534 isolated_anon:0
+[ 1182.942305]  active_file:65 inactive_file:38 isolated_file:0
+[ 1182.942307]  unevictable:251398 dirty:0 writeback:0 unstable:0
+[ 1182.942310]  free:7940 slab_reclaimable:2427 slab_unreclaimable:3477
+[ 1182.942313]  mapped:1209 shmem:0 pagetables:4528 bounce:0
+[ 1182.942319] Node 0 DMA free:15860kB min:28kB low:32kB high:40kB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:15684kB mlocked:0kB dirty:0kB writeback:0kB mapped:0kB shmem:0kB slab_reclaimable:0kB slab_unreclaimable:16kB kernel_stack:0kB pagetables:0kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:0 all_unreclaimable? yes
+[ 1182.942343] lowmem_reserve[]: 0 1973 3993 3993
+[ 1182.942353] Node 0 DMA32 free:11960kB min:3988kB low:4984kB high:5980kB active_anon:1163132kB inactive_anon:387740kB active_file:4kB inactive_file:128kB unevictable:426284kB isolated(anon):0kB isolated(file):0kB present:2020524kB mlocked:426284kB dirty:0kB writeback:0kB mapped:0kB shmem:0kB slab_reclaimable:0kB slab_unreclaimable:44kB kernel_stack:0kB pagetables:10288kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:32 all_unreclaimable? yes
+[ 1182.942376] lowmem_reserve[]: 0 0 2020 2020
+[ 1182.942385] Node 0 Normal free:3940kB min:4080kB low:5100kB high:6120kB active_anon:973256kB inactive_anon:358396kB active_file:256kB inactive_file:24kB unevictable:579308kB isolated(anon):0kB isolated(file):0kB present:2068480kB mlocked:578260kB dirty:0kB writeback:0kB mapped:4836kB shmem:0kB slab_reclaimable:9708kB slab_unreclaimable:13848kB kernel_stack:1056kB pagetables:7824kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:426 all_unreclaimable? yes
+[ 1182.942408] lowmem_reserve[]: 0 0 0 0
+[ 1182.942417] Node 0 DMA: 1*4kB 0*8kB 1*16kB 1*32kB 1*64kB 1*128kB 1*256kB 0*512kB 1*1024kB 1*2048kB 3*4096kB = 15860kB
+[ 1182.942442] Node 0 DMA32: 2*4kB 1*8kB 2*16kB 40*32kB 44*64kB 14*128kB 0*256kB 0*512kB 0*1024kB 1*2048kB 1*4096kB = 12080kB
+[ 1182.942465] Node 0 Normal: 114*4kB 150*8kB 61*16kB 19*32kB 5*64kB 2*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 3816kB
+[ 1182.942488] 54113 total pagecache pages
+[ 1182.942493] 52620 pages in swap cache
+[ 1182.942498] Swap cache stats: add 1048880, delete 996260, find 38/72
+[ 1182.942503] Free swap  = 0kB
+[ 1182.942506] Total swap = 4194300kB
+[ 1182.969590] 1048560 pages RAM
+[ 1182.969600] 34673 pages reserved
+[ 1182.969604] 5883 pages shared
+[ 1182.969608] 1004266 pages non-shared
+[ 1182.969613] [ pid ]   uid  tgid total_vm      rss cpu oom_adj oom_score_adj name
+[ 1182.969643] [  221]     0   221     1035       77   0     -17         -1000 watershed
+[ 1182.969654] [  222]     0   222     1107       78   1     -17         -1000 sh
+[ 1182.969663] [  225]     0   225     8715     3468   1     -17         -1000 lvm
+[ 1182.969673] [  303]     0   303     4267       34   0       0             0 upstart-udev-br
+[ 1182.969683] [  312]     0   312     5390       66   4     -17         -1000 udevd
+[ 1182.969692] [  430]     0   430     5389       62   7     -17         -1000 udevd
+[ 1182.969701] [  462]     0   462     5389       58   3     -17         -1000 udevd
+[ 1182.969710] [  576]     0   576     1774        8   0       0             0 dhclient3
+[ 1182.969719] [  634]     0   634     3755        0   0       0             0 upstart-socket-
+[ 1182.969729] [  673]     0   673    12370      171   2     -17         -1000 sshd
+[ 1182.969737] [  678]   101   678    13617      139   2       0             0 rsyslogd
+[ 1182.969748] [  738]     0   738     1553      132   1       0             0 getty
+[ 1182.969756] [  743]     0   743     1553      132   1       0             0 getty
+[ 1182.969766] [  748]     0   748     1553      132   1       0             0 getty
+[ 1182.969774] [  750]     0   750     1553      132   0       0             0 getty
+[ 1182.969782] [  755]     0   755     1553      132   1       0             0 getty
+[ 1182.969792] [  763]     0   763     4736      129   4       0             0 cron
+[ 1182.969800] [  765]     0   765     4186       50   0       0             0 atd
+[ 1182.969810] [  783]     0   783    52049      171   6       0             0 libvirtd
+[ 1182.969818] [  785]     0   785     3949      115   1       0             0 irqbalance
+[ 1182.969828] [  834]     0   834     1553      132   1       0             0 getty
+[ 1182.969838] [  891] 65534   891     5426      118   3       0             0 dnsmasq
+[ 1182.969847] [  917]     0   917    17712      202   1       0             0 sshd
+[ 1182.969855] [  942]  1000   942    17712       94   1       0             0 sshd
+[ 1182.969864] [  943]  1000   943     6541      155   1       0             0 bash
+[ 1182.969872] [ 1043]     0  1043     8311      193   1       0             0 sudo
+[ 1182.969880] [ 1044]     0  1044     5581      173   1       0             0 bash
+[ 1182.969889] [ 1264]     0  1264    17712      200   1       0             0 sshd
+[ 1182.969897] [ 1289]  1000  1289    17712       75   1       0             0 sshd
+[ 1182.969906] [ 1290]  1000  1290     6541      156   1       0             0 bash
+[ 1182.969914] [ 1390]     0  1390     8311      193   1       0             0 sudo
+[ 1182.969923] [ 1395]     0  1395     5571      160   2       0             0 bash
+[ 1182.969955] [ 1453]     0  1453     1649      107   1       0             0 stress
+[ 1182.969964] [ 1454]     0  1454   788082    64195   2       0             0 stress
+[ 1182.969972] [ 1455]     0  1455   788082    61788   7       0             0 stress
+[ 1182.969980] [ 1456]     0  1456   788082    66165   7       0             0 stress
+[ 1182.969988] [ 1457]     0  1457   788082    75394   2       0             0 stress
+[ 1182.969996] [ 1458]     0  1458   788082    67380   7       0             0 stress
+[ 1182.970004] [ 1459]     0  1459   788082    70520   3       0             0 stress
+[ 1182.970012] [ 1460]     0  1460   788082    62693   5       0             0 stress
+[ 1182.970020] [ 1461]     0  1461   788082    60982   4       0             0 stress
+[ 1182.970027] [ 1462]     0  1462   788082    62142   0       0             0 stress
+[ 1182.970036] [ 1463]     0  1463   788082    68452   4       0             0 stress
+[ 1182.970044] Out of memory: Kill process 1457 (stress) score 72 or sacrifice child
+[ 1182.970148] Killed process 1457 (stress) total-vm:3152328kB, anon-rss:301412kB, file-rss:164kB
+[ 1182.991436] stress invoked oom-killer: gfp_mask=0x280da, order=0, oom_adj=0, oom_score_adj=0
+[ 1182.991451] stress cpuset=/ mems_allowed=0
+[ 1182.991461] Pid: 1456, comm: stress Not tainted 2.6.38.8 #1
+[ 1182.991466] Call Trace:
+[ 1182.991482]  [<ffffffff810b689d>] ? cpuset_print_task_mems_allowed+0x9d/0xb0
+[ 1182.991493]  [<ffffffff81108491>] ? dump_header+0x91/0x1e0
+[ 1182.991501]  [<ffffffff81270bbc>] ? security_real_capable_noaudit+0x3c/0x70
+[ 1182.991510]  [<ffffffff811089a5>] ? oom_kill_process+0x85/0x2a0
+[ 1182.991519]  [<ffffffff81109040>] ? out_of_memory+0x240/0x3e0
+[ 1182.991527]  [<ffffffff8110dc99>] ? __alloc_pages_nodemask+0x7b9/0x830
+[ 1182.991536]  [<ffffffff812d4b2e>] ? radix_tree_lookup_slot+0xe/0x10
+[ 1182.991545]  [<ffffffff8114522a>] ? alloc_pages_vma+0x9a/0x150
+[ 1182.991553]  [<ffffffff81129279>] ? handle_pte_fault+0x4a9/0xb10
+[ 1182.991561]  [<ffffffff81142e85>] ? alloc_pages_current+0xa5/0x110
+[ 1182.991570]  [<ffffffff81043237>] ? pte_alloc_one+0x37/0x50
+[ 1182.991577]  [<ffffffff81126bb5>] ? __pte_alloc+0xb5/0x100
+[ 1182.991585]  [<ffffffff8112ae78>] ? handle_mm_fault+0x158/0x260
+[ 1182.991592]  [<ffffffff8104edae>] ? perf_event_task_sched_out+0x2e/0xa0
+[ 1182.991601]  [<ffffffff815b20d2>] ? do_page_fault+0x1a2/0x540
+[ 1182.991610]  [<ffffffff81013765>] ? native_sched_clock+0x15/0x80
+[ 1182.991620]  [<ffffffff8108bf95>] ? sched_clock_local+0x25/0x90
+[ 1182.991627]  [<ffffffff81051751>] ? pick_next_task_fair+0x121/0x1a0
+[ 1182.991636]  [<ffffffff815abf25>] ? schedule+0x785/0xa00
+[ 1182.991644]  [<ffffffff815aec15>] ? page_fault+0x25/0x30
+[ 1182.991651] Mem-Info:
+[ 1182.991656] Node 0 DMA per-cpu:
+[ 1182.991662] CPU    0: hi:    0, btch:   1 usd:   0
+[ 1182.991667] CPU    1: hi:    0, btch:   1 usd:   0
+[ 1182.991673] CPU    2: hi:    0, btch:   1 usd:   0
+[ 1182.991678] CPU    3: hi:    0, btch:   1 usd:   0
+[ 1182.991683] CPU    4: hi:    0, btch:   1 usd:   0
+[ 1182.991688] CPU    5: hi:    0, btch:   1 usd:   0
+[ 1182.991693] CPU    6: hi:    0, btch:   1 usd:   0
+[ 1182.991698] CPU    7: hi:    0, btch:   1 usd:   0
+[ 1182.991702] Node 0 DMA32 per-cpu:
+[ 1182.991707] CPU    0: hi:  186, btch:  31 usd:   0
+[ 1182.991712] CPU    1: hi:  186, btch:  31 usd:   0
+[ 1182.991717] CPU    2: hi:  186, btch:  31 usd:   0
+[ 1182.991722] CPU    3: hi:  186, btch:  31 usd:   0
+[ 1182.991727] CPU    4: hi:  186, btch:  31 usd:   0
+[ 1182.991732] CPU    5: hi:  186, btch:  31 usd:   0
+[ 1182.991737] CPU    6: hi:  186, btch:  31 usd:   0
+[ 1182.991742] CPU    7: hi:  186, btch:  31 usd:   0
+[ 1182.991746] Node 0 Normal per-cpu:
+[ 1182.991752] CPU    0: hi:  186, btch:  31 usd:   0
+[ 1182.991757] CPU    1: hi:  186, btch:  31 usd:   0
+[ 1182.991761] CPU    2: hi:  186, btch:  31 usd:  30
+[ 1182.991766] CPU    3: hi:  186, btch:  31 usd:   0
+[ 1182.991771] CPU    4: hi:  186, btch:  31 usd:   0
+[ 1182.991776] CPU    5: hi:  186, btch:  31 usd:   0
+[ 1182.991781] CPU    6: hi:  186, btch:  31 usd:  30
+[ 1182.991786] CPU    7: hi:  186, btch:  31 usd:   0
+[ 1182.991797] active_anon:534097 inactive_anon:204230 isolated_anon:96
+[ 1182.991800]  active_file:65 inactive_file:38 isolated_file:0
+[ 1182.991802]  unevictable:233606 dirty:0 writeback:0 unstable:0
+[ 1182.991805]  free:7940 slab_reclaimable:2427 slab_unreclaimable:3477
+[ 1182.991808]  mapped:1209 shmem:0 pagetables:4528 bounce:0
+[ 1182.991813] Node 0 DMA free:15860kB min:28kB low:32kB high:40kB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:15684kB mlocked:0kB dirty:0kB writeback:0kB mapped:0kB shmem:0kB slab_reclaimable:0kB slab_unreclaimable:16kB kernel_stack:0kB pagetables:0kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:0 all_unreclaimable? yes
+[ 1182.991836] lowmem_reserve[]: 0 1973 3993 3993
+[ 1182.991845] Node 0 DMA32 free:11960kB min:3988kB low:4984kB high:5980kB active_anon:1163132kB inactive_anon:387740kB active_file:4kB inactive_file:128kB unevictable:426284kB isolated(anon):0kB isolated(file):0kB present:2020524kB mlocked:426284kB dirty:0kB writeback:0kB mapped:0kB shmem:0kB slab_reclaimable:0kB slab_unreclaimable:44kB kernel_stack:0kB pagetables:10288kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:32 all_unreclaimable? yes
+[ 1182.991868] lowmem_reserve[]: 0 0 2020 2020
+[ 1182.991877] Node 0 Normal free:3940kB min:4080kB low:5100kB high:6120kB active_anon:973256kB inactive_anon:429180kB active_file:256kB inactive_file:24kB unevictable:508140kB isolated(anon):384kB isolated(file):0kB present:2068480kB mlocked:507008kB dirty:0kB writeback:0kB mapped:4836kB shmem:0kB slab_reclaimable:9708kB slab_unreclaimable:13848kB kernel_stack:1056kB pagetables:7824kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:522 all_unreclaimable? yes
+[ 1182.991900] lowmem_reserve[]: 0 0 0 0
+[ 1182.991909] Node 0 DMA: 1*4kB 0*8kB 1*16kB 1*32kB 1*64kB 1*128kB 1*256kB 0*512kB 1*1024kB 1*2048kB 3*4096kB = 15860kB
+[ 1182.991934] Node 0 DMA32: 2*4kB 1*8kB 2*16kB 40*32kB 44*64kB 14*128kB 0*256kB 0*512kB 0*1024kB 1*2048kB 1*4096kB = 12080kB
+[ 1182.991957] Node 0 Normal: 113*4kB 149*8kB 60*16kB 20*32kB 3*64kB 2*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 3692kB
+[ 1182.991980] 54113 total pagecache pages
+[ 1182.991985] 52618 pages in swap cache
+[ 1182.991990] Swap cache stats: add 1048880, delete 996262, find 38/72
+[ 1182.991995] Free swap  = 56444kB
+[ 1182.991998] Total swap = 4194300kB
+[ 1183.018432] 1048560 pages RAM
+[ 1183.018440] 34673 pages reserved
+[ 1183.018443] 6070 pages shared
+[ 1183.018447] 1004075 pages non-shared
+[ 1183.018451] [ pid ]   uid  tgid total_vm      rss cpu oom_adj oom_score_adj name
+[ 1183.018480] [  221]     0   221     1035       77   0     -17         -1000 watershed
+[ 1183.018490] [  222]     0   222     1107       78   1     -17         -1000 sh
+[ 1183.018499] [  225]     0   225     8715     3468   1     -17         -1000 lvm
+[ 1183.018509] [  303]     0   303     4267       34   0       0             0 upstart-udev-br
+[ 1183.018518] [  312]     0   312     5390       66   4     -17         -1000 udevd
+[ 1183.018527] [  430]     0   430     5389       62   7     -17         -1000 udevd
+[ 1183.018536] [  462]     0   462     5389       58   3     -17         -1000 udevd
+[ 1183.018545] [  576]     0   576     1774        8   0       0             0 dhclient3
+[ 1183.018553] [  634]     0   634     3755        0   0       0             0 upstart-socket-
+[ 1183.018562] [  673]     0   673    12370      171   2     -17         -1000 sshd
+[ 1183.018570] [  678]   101   678    13617      139   2       0             0 rsyslogd
+[ 1183.018579] [  738]     0   738     1553      132   1       0             0 getty
+[ 1183.018587] [  743]     0   743     1553      132   1       0             0 getty
+[ 1183.018596] [  748]     0   748     1553      132   1       0             0 getty
+[ 1183.018605] [  750]     0   750     1553      132   0       0             0 getty
+[ 1183.018613] [  755]     0   755     1553      132   1       0             0 getty
+[ 1183.018621] [  763]     0   763     4736      129   4       0             0 cron
+[ 1183.018630] [  765]     0   765     4186       50   0       0             0 atd
+[ 1183.018638] [  783]     0   783    52049      171   6       0             0 libvirtd
+[ 1183.018647] [  785]     0   785     3949      115   1       0             0 irqbalance
+[ 1183.018655] [  834]     0   834     1553      132   1       0             0 getty
+[ 1183.018664] [  891] 65534   891     5426      118   3       0             0 dnsmasq
+[ 1183.018673] [  917]     0   917    17712      202   1       0             0 sshd
+[ 1183.018681] [  942]  1000   942    17712       94   1       0             0 sshd
+[ 1183.018689] [  943]  1000   943     6541      155   1       0             0 bash
+[ 1183.018698] [ 1043]     0  1043     8311      193   1       0             0 sudo
+[ 1183.018706] [ 1044]     0  1044     5581      173   1       0             0 bash
+[ 1183.018714] [ 1264]     0  1264    17712      200   1       0             0 sshd
+[ 1183.018723] [ 1289]  1000  1289    17712       75   1       0             0 sshd
+[ 1183.018731] [ 1290]  1000  1290     6541      156   1       0             0 bash
+[ 1183.018739] [ 1390]     0  1390     8311      193   1       0             0 sudo
+[ 1183.018747] [ 1395]     0  1395     5571      160   2       0             0 bash
+[ 1183.018757] [ 1453]     0  1453     1649      107   1       0             0 stress
+[ 1183.018765] [ 1454]     0  1454   788082    64195   3       0             0 stress
+[ 1183.018773] [ 1455]     0  1455   788082    61788   7       0             0 stress
+[ 1183.018781] [ 1456]     0  1456   788082    66165   7       0             0 stress
+[ 1183.018790] [ 1458]     0  1458   788082    67380   7       0             0 stress
+[ 1183.018798] [ 1459]     0  1459   788082    70520   3       0             0 stress
+[ 1183.018806] [ 1460]     0  1460   788082    62693   5       0             0 stress
+[ 1183.018814] [ 1461]     0  1461   788082    60982   4       0             0 stress
+[ 1183.018823] [ 1462]     0  1462   788082    62142   5       0             0 stress
+[ 1183.018831] [ 1463]     0  1463   788082    68452   4       0             0 stress
+[ 1183.018838] Out of memory: Kill process 1463 (stress) score 70 or sacrifice child
+[ 1183.018939] Killed process 1463 (stress) total-vm:3152328kB, anon-rss:273640kB, file-rss:168kB
