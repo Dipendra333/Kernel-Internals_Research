@@ -1,3 +1,6 @@
+
+Bug 39452 - OOM killer kills more than needed
+- [Bugzilla Link](https://bugzilla.kernel.org/show_bug.cgi?id=39452)
 ## Debugging Methods Used
 - [printk](../../debugging/printk/examples/add-oom-debug.md)
 - [ftrace](../../debugging/ftrace/examples/trace-oom-path.md)
