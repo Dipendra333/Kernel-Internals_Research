@@ -25,9 +25,7 @@ My journey learning Linux kernel internals and contributing upstream.
 ## 🐛 Bugs Tracked
 | Bug | Status | Subsystem | Version |
 |-----|--------|-----------|---------|
-| [#001 OOM Race](bugs/reproduced/bug-001-oom-race-2.6.38/) | ✅ Fixed | MM | 2.6.38 |
-| [#002 Memcg Leak](bugs/reproduced/bug-002-memcg-leak/) | 🔍 Investigating | MM | 6.18 |
-| [#003 Slab Corrupt](bugs/investigating/bug-003-slab-corruption/) | 🔄 Reproducing | MM | 6.18 |
+| [#001 OOM Race](bugs/reproduced/bug-001-oom-race-2.6.38/) | ✅ Reproduced | MM | 2.6.38 |
 
 ## 📝 Recent Activity
 **2025-01-15:** Analyzed OOM killer in 6.18  
